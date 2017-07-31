@@ -4,13 +4,12 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Tutorial.Controllers
+namespace ContosoUniversity.Controllers
 {
     public class HomeController : Controller
     {
         public IActionResult Index()
         {
-            ViewData["Message"] = "Foo bar!";
             return View();
         }
 
